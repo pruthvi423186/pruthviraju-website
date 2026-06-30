@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruthviraju Gundrathi | AI/ML & Robotics Engineer</title>
+    <meta name="description" content="Portfolio of Pruthviraju Gundrathi - AI/ML Engineer specializing in Computer Vision, Deep Learning, and Autonomous Robotics.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+    <!-- Background Blob Animations -->
+    <div class="blob-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Glassmorphic Header / Navbar -->
+        <header class="navbar-wrapper">
+            <div class="navbar-brand">
+                <span class="brand-logo"><i class="ph ph-cpu"></i></span>
+                <div class="brand-text">
+                    <span class="brand-name">Pruthviraju G.</span>
+                    <span class="brand-title">AI/ML & Robotics</span>
+                </div>
+            </div>
+            
+            <nav class="navbar-tabs" id="navTabs">
+                <div class="liquid-indicator" id="liquidIndicator"></div>
+                <button class="nav-tab active" data-tab="about">
+                    <i class="ph ph-user-focus"></i><span>About</span>
+                </button>
+                <button class="nav-tab" data-tab="skills">
+                    <i class="ph ph-code"></i><span>Skills</span>
+                </button>
+                <button class="nav-tab" data-tab="projects">
+                    <i class="ph ph-kanban"></i><span>Projects</span>
+                </button>
+                <button class="nav-tab" data-tab="experience">
+                    <i class="ph ph-briefcase"></i><span>Timeline</span>
+                </button>
+                <button class="nav-tab" data-tab="contact">
+                    <i class="ph ph-paper-plane-tilt"></i><span>Contact</span>
+                </button>
+            </nav>
+
+            <div class="navbar-actions">
+                <button class="theme-toggle-btn" id="themeToggle" title="Toggle Theme">
+                    <i class="ph ph-sun"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- 1. ABOUT TAB -->
+            <section class="tab-panel active" id="tab-about">
+                <div class="about-grid">
+                    <div class="profile-card glass-panel">
+                        <div class="profile-image-container">
+                            <img src="assets/avatar.png" alt="Pruthviraju Gundrathi" class="profile-image">
+                            <div class="profile-glow"></div>
+                        </div>
+                        <h2 class="profile-name">Pruthviraju Gundrathi</h2>
+                        <p class="profile-role">AI/ML & Robotics Engineer</p>
+                        
+                        <div class="profile-details">
+                            <div class="detail-item">
+                                <i class="ph ph-map-pin"></i>
+                                <span>Hyderabad, Telangana, India</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="ph ph-envelope"></i>
+                                <a href="mailto:rajprudvi423@gmail.com">rajprudvi423@gmail.com</a>
+                            </div>
+                            <div class="detail-item">
+                                <i class="ph ph-phone"></i>
+                                <a href="tel:+918879674038">+91 88796 74038</a>
+                            </div>
+                        </div>
+
+                        <div class="profile-socials">
+                            <a href="https://github.com/pruthvi423186" target="_blank" class="social-btn glass-btn" title="GitHub">
+                                <i class="ph ph-github-logo"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/pruthviraju-gundrathi-513819136/" target="_blank" class="social-btn glass-btn" title="LinkedIn">
+                                <i class="ph ph-linkedin-logo"></i>
+                            </a>
+                            <a href="https://huggingface.co/pruthvi423" target="_blank" class="social-btn glass-btn" title="Hugging Face">
+                                <i class="ph ph-circle-dashed"></i>
+                            </a>
+                            <a href="mailto:rajprudvi423@gmail.com" class="social-btn glass-btn" title="Email">
+                                <i class="ph ph-envelope-simple"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="intro-card glass-panel">
+                        <h1 class="intro-title">Pioneering Intelligent Vision & Autonomous Systems</h1>
+                        <p class="intro-text">
+                            I am a forward-thinking AI/ML Engineer with deep expertise in Computer Vision, Deep Learning, and Robotics. My work bridges the gap between complex algorithms and resource-constrained hardware, optimizing inference pipelines to bring real-time decision-making systems to life.
+                        </p>
+                        <p class="intro-text">
+                            With a strong foundation in statistical analysis and model fine-tuning, I build production-ready solutions that enable robots to navigate, models to translate speech instantly, and machines to understand gestures seamlessly.
+                        </p>
+
+                        <div class="highlights-grid">
+                            <div class="highlight-item glass-card">
+                                <div class="highlight-icon icon-cv"><i class="ph ph-eye"></i></div>
+                                <h3>Computer Vision</h3>
+                                <p>Object Detection, Image Segmentation & Gestures</p>
+                            </div>
+                            <div class="highlight-item glass-card">
+                                <div class="highlight-icon icon-robot"><i class="ph ph-robot"></i></div>
+                                <h3>Robotics & SLAM</h3>
+                                <p>ROS, Path Planning & Autonomous Mapping</p>
+                            </div>
+                            <div class="highlight-item glass-card">
+                                <div class="highlight-icon icon-dl"><i class="ph ph-brain"></i></div>
+                                <h3>Deep Learning</h3>
+                                <p>PyTorch, Fine-Tuning & Quantization</p>
+                            </div>
+                        </div>
+
+                        <div class="about-action">
+                            <button class="action-btn primary-glow-btn" onclick="switchTab('projects')">
+                                <span>Explore My Work</span><i class="ph ph-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2. SKILLS TAB -->
+            <section class="tab-panel" id="tab-skills">
+                <div class="skills-header">
+                    <h2 class="section-title">Technical Expertise</h2>
+                    <p class="section-subtitle">Click a skill badge to discover which of my projects use that technology.</p>
+                </div>
+                
+                <div class="skills-layout">
+                    <div class="skills-container">
+                        <div class="skills-category glass-panel">
+                            <h3 class="category-title"><i class="ph ph-brain"></i> Machine Learning & AI</h3>
+                            <div class="skills-grid">
+                                <span class="skill-badge" data-skill="PyTorch">PyTorch</span>
+                                <span class="skill-badge" data-skill="TensorFlow">TensorFlow</span>
+                                <span class="skill-badge" data-skill="YOLO">Ultralytics YOLO</span>
+                                <span class="skill-badge" data-skill="Fine-Tuning">Model Fine-tuning</span>
+                                <span class="skill-badge" data-skill="Transfer-Learning">Transfer Learning</span>
+                                <span class="skill-badge" data-skill="Optimization">Model Optimization</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-category glass-panel">
+                            <h3 class="category-title"><i class="ph ph-eye"></i> Computer Vision</h3>
+                            <div class="skills-grid">
+                                <span class="skill-badge" data-skill="Object-Detection">Object Detection</span>
+                                <span class="skill-badge" data-skill="Segmentation">Image Segmentation</span>
+                                <span class="skill-badge" data-skill="Gesture-Recognition">Gesture Recognition</span>
+                                <span class="skill-badge" data-skill="MediaPipe">MediaPipe</span>
+                                <span class="skill-badge" data-skill="OpenCV">OpenCV</span>
+                                <span class="skill-badge" data-skill="Image-Processing">Image Processing</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-category glass-panel">
+                            <h3 class="category-title"><i class="ph ph-terminal"></i> Languages & MLOps</h3>
+                            <div class="skills-grid">
+                                <span class="skill-badge" data-skill="Python">Python</span>
+                                <span class="skill-badge" data-skill="Kotlin">Kotlin</span>
+                                <span class="skill-badge" data-skill="Transformers">Hugging Face Transformers</span>
+                                <span class="skill-badge" data-skill="CUDA">CUDA</span>
+                                <span class="skill-badge" data-skill="Git">Git</span>
+                                <span class="skill-badge" data-skill="Deployment">Model Deployment</span>
+                                <span class="skill-badge" data-skill="APIs">API Development</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-category glass-panel">
+                            <h3 class="category-title"><i class="ph ph-android-logo"></i> Android & Quality</h3>
+                            <div class="skills-grid">
+                                <span class="skill-badge" data-skill="Jetpack-Compose">Jetpack Compose</span>
+                                <span class="skill-badge" data-skill="MVVM">MVVM Architecture</span>
+                                <span class="skill-badge" data-skill="ML-Kit">Google ML Kit</span>
+                                <span class="skill-badge" data-skill="Drive-API">Google Drive API</span>
+                                <span class="skill-badge" data-skill="Coroutines">Coroutines & Dagger Hilt</span>
+                                <span class="skill-badge" data-skill="Testing">Unit & API Testing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Robotics Playground (Creativity) -->
+                    <div class="robotics-playground glass-panel">
+                        <div class="playground-header">
+                            <div class="playground-tag"><i class="ph ph-robot"></i><span>Interactive</span></div>
+                            <h3 class="playground-title">Robotics & Simulation Terminal</h3>
+                            <p class="playground-desc">Simulate a ROS node execution on the TurtleBot3 hardware stack.</p>
+                        </div>
+                        
+                        <div class="terminal-wrapper">
+                            <div class="terminal-header">
+                                <div class="terminal-dots">
+                                    <span class="dot red"></span>
+                                    <span class="dot yellow"></span>
+                                    <span class="dot green"></span>
+                                </div>
+                                <span class="terminal-title">ros_node@pruthviraju-core:~</span>
+                                <i class="ph ph-terminal-window terminal-icon"></i>
+                            </div>
+                            <div class="terminal-body" id="terminalBody">
+                                <div class="terminal-line"><span class="t-accent">[System]</span> Terminal initialized. Ready to interface with ROS.</div>
+                                <div class="terminal-line"><span class="t-accent">[System]</span> TurtleBot3 status: ONLINE. Gazebo Simulator: IDLE.</div>
+                                <div class="terminal-line"><span class="t-prompt">pruthvi-robotics$</span> <span class="t-cursor"></span></div>
+                            </div>
+                            <div class="terminal-controls">
+                                <button class="terminal-btn active-pulse-btn" id="btnLaunchSLAM" onclick="runRosSim()">
+                                    <i class="ph ph-play"></i><span>roslaunch turtlebot3_navigation.launch</span>
+                                </button>
+                                <button class="terminal-btn secondary-btn" id="btnResetSLAM" onclick="resetRosSim()" disabled>
+                                    <i class="ph ph-arrows-counter-clockwise"></i><span>Reset Node</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="terminal-status-overlay" id="terminalStatusOverlay">
+                            <div class="status-panel">
+                                <div class="mini-grid" id="miniGrid">
+                                    <!-- Dynamic points generated via JS -->
+                                </div>
+                                <div class="status-metrics">
+                                    <div class="metric"><span>Pos X:</span> <strong id="posX">0.00</strong></div>
+                                    <div class="metric"><span>Pos Y:</span> <strong id="posY">0.00</strong></div>
+                                    <div class="metric"><span>LiDAR Status:</span> <strong id="lidarStatus">OFF</strong></div>
+                                    <div class="metric"><span>SLAM:</span> <strong class="green-text" id="slamStatus">INACTIVE</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. PROJECTS TAB -->
+            <section class="tab-panel" id="tab-projects">
+                <div class="projects-header">
+                    <h2 class="section-title">Key Projects</h2>
+                    <p class="section-subtitle">Explore a selection of recent deep learning, computer vision, and robotics projects.</p>
+                </div>
+
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Project 1: Docman -->
+                    <div class="project-card glass-panel" data-tech="Kotlin, Jetpack-Compose, ML-Kit, Drive-API, MVVM, Coroutines">
+                        <div class="project-badge"><i class="ph ph-android-logo"></i><span>Mobile AI</span></div>
+                        <h3 class="project-title">Docman - Intelligent Document Manager</h3>
+                        <p class="project-summary">Premium Android document assistant featuring Google ML Kit-powered scanning and cloud synchronization.</p>
+                        
+                        <div class="project-tags">
+                            <span>Kotlin</span>
+                            <span>Jetpack Compose</span>
+                            <span>ML Kit</span>
+                            <span>Google Drive API</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://github.com/pruthvi423186/Docman" target="_blank" class="proj-link"><i class="ph ph-github-logo"></i> Repo</a>
+                            <a href="https://pruthvi423186.github.io/docman-landing/" target="_blank" class="proj-link"><i class="ph ph-globe"></i> Website</a>
+                        </div>
+                        
+                        <button class="project-expand-btn" onclick="toggleProjectDetails(this)">
+                            <span>View Details</span><i class="ph ph-caret-down"></i>
+                        </button>
+
+                        <div class="project-details-panel">
+                            <h4>Implementation Highlights:</h4>
+                            <ul>
+                                <li>Constructed a robust built-in scanner converting physical images to high-quality PDFs instantly using Google ML Kit.</li>
+                                <li>Architected modular app structure using Clean Architecture + MVVM, optimizing background sync processes via Google Drive API.</li>
+                                <li>Implemented modern Android Credential Manager API for security, utilizing Dagger Hilt for dependency injection and Coroutines for non-blocking I/O.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Speech-to-Speech -->
+                    <div class="project-card glass-panel" data-tech="PyTorch, Transformers, CUDA, Python, Optimization, Fine-Tuning">
+                        <div class="project-badge"><i class="ph ph-translate"></i><span>NLP & Speech</span></div>
+                        <h3 class="project-title">Enhanced Speech-to-Speech Translation</h3>
+                        <p class="project-summary">Optimized cascaded S2ST translation pipeline achieving extremely low-latency performance on consumer-grade GPUs.</p>
+                        
+                        <div class="project-tags">
+                            <span>PyTorch</span>
+                            <span>Transformers</span>
+                            <span>CUDA</span>
+                            <span>Hugging Face</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://huggingface.co/spaces/pruthvi423/speech-translation-app" target="_blank" class="proj-link"><i class="ph ph-rocket-launch"></i> HF Space</a>
+                        </div>
+                        
+                        <button class="project-expand-btn" onclick="toggleProjectDetails(this)">
+                            <span>View Details</span><i class="ph ph-caret-down"></i>
+                        </button>
+
+                        <div class="project-details-panel">
+                            <h4>Implementation Highlights:</h4>
+                            <ul>
+                                <li>Achieved real-time factor (RTF) of 0.07 using only 5GB VRAM on consumer-grade hardware (Nvidia RTX 3060).</li>
+                                <li>Fine-tuned and deployed production-ready models on Hugging Face using quantization, model compression, and custom inference paths.</li>
+                                <li>Designed custom low-latency audio pre-processing and pipeline buffer management to support fluid real-time interactions.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: ASL Gesture -->
+                    <div class="project-card glass-panel" data-tech="MediaPipe, Python, OpenCV, Gesture-Recognition, Object-Detection">
+                        <div class="project-badge"><i class="ph ph-hand-waving"></i><span>Computer Vision</span></div>
+                        <h3 class="project-title">Real-Time ASL Gesture Recognition</h3>
+                        <p class="project-summary">End-to-end American Sign Language recognition system utilizing hand landmarks tracking and classification models.</p>
+                        
+                        <div class="project-tags">
+                            <span>MediaPipe</span>
+                            <span>OpenCV</span>
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/pruthvi423186/mediapipe_Gesture_control" target="_blank" class="proj-link"><i class="ph ph-github-logo"></i> Repo</a>
+                        </div>
+                        
+                        <button class="project-expand-btn" onclick="toggleProjectDetails(this)">
+                            <span>View Details</span><i class="ph ph-caret-down"></i>
+                        </button>
+
+                        <div class="project-details-panel">
+                            <h4>Implementation Highlights:</h4>
+                            <ul>
+                                <li>Leveraged MediaPipe for high-fidelity hand landmark detection and tracking in multi-frame sequences.</li>
+                                <li>Engineered a custom feature extraction pipeline processing geometric hand-joint landmarks.</li>
+                                <li>Trained ML classification models (SVM, Random Forests, LightGBM) to map coordinates into corresponding letters/words with high validation accuracy.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Assistive Living Object Detection -->
+                    <div class="project-card glass-panel" data-tech="OpenCV, Image-Processing, Python, Object-Detection">
+                        <div class="project-badge"><i class="ph ph-shield-check"></i><span>Assistive Tech</span></div>
+                        <h3 class="project-title">Automated Object Detection for Assistive Living</h3>
+                        <p class="project-summary">Comprehensive CV system detecting structural alterations and localized changes to assist physically impaired users.</p>
+                        
+                        <div class="project-tags">
+                            <span>Computer Vision</span>
+                            <span>Image Processing</span>
+                            <span>OpenCV</span>
+                            <span>Python</span>
+                        </div>
+                        
+                        <button class="project-expand-btn" onclick="toggleProjectDetails(this)">
+                            <span>View Details</span><i class="ph ph-caret-down"></i>
+                        </button>
+
+                        <div class="project-details-panel">
+                            <h4>Implementation Highlights:</h4>
+                            <ul>
+                                <li>Implemented an image preprocessing pipeline including Gaussian noise removal, homography, and adaptive brightness adjustments.</li>
+                                <li>Developed custom difference detection algorithms to scan static scenes and identify missing or moved items.</li>
+                                <li>Integrated semantic triggers to alert caretakers or users to potential layout obstructions.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: TurtleBot3 Autonomous Navigation -->
+                    <div class="project-card glass-panel" data-tech="Robotics, Python, YOLO, OpenCV">
+                        <div class="project-badge"><i class="ph ph-steering-wheel"></i><span>Robotics</span></div>
+                        <h3 class="project-title">TurtleBot3 Autonomous Navigation</h3>
+                        <p class="project-summary">ROS-based autonomous path-planning, mapping, and collision avoidance on physical TurtleBot3 hardware.</p>
+                        
+                        <div class="project-tags">
+                            <span>ROS</span>
+                            <span>SLAM</span>
+                            <span>Gazebo Simulation</span>
+                            <span>Python</span>
+                        </div>
+                        
+                        <button class="project-expand-btn" onclick="toggleProjectDetails(this)">
+                            <span>View Details</span><i class="ph ph-caret-down"></i>
+                        </button>
+
+                        <div class="project-details-panel">
+                            <h4>Implementation Highlights:</h4>
+                            <ul>
+                                <li>Programmed SLAM algorithms (Gmapping, Cartographer) for real-time laser scanner mapping and localization.</li>
+                                <li>Designed adaptive obstacle avoidance and dynamic path-planning scripts using ROS navigation stack (`move_base`, `AMCL`).</li>
+                                <li>Validated control algorithms in Gazebo simulations before successfully deploying to hardware on Ubuntu environment.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. TIMELINE TAB -->
+            <section class="tab-panel" id="tab-experience">
+                <div class="timeline-header">
+                    <h2 class="section-title">Professional Journey</h2>
+                    <p class="section-subtitle">A trace of my educational milestones and professional steps.</p>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-line-indicator"></div>
+
+                    <!-- Item 1: MSc -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot"><i class="ph ph-student"></i></div>
+                        <div class="timeline-content glass-panel">
+                            <span class="timeline-date">2022 – 2024 (Drop out)</span>
+                            <h3 class="timeline-title">Master of Science in Industry 4.0 & Robotics</h3>
+                            <h4 class="timeline-company">ESILV (École Supérieure d'Ingénieurs Léonard de Vinci)</h4>
+                            <p class="timeline-location"><i class="ph ph-map-pin"></i> Paris, France</p>
+                            <p class="timeline-desc">Specialized in robotic automation, industrial networks, SLAM algorithms, and multi-agent coordination. Bridged systems integration theories with hands-on labs.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 2: QA Infotech -->
+                    <div class="timeline-item right">
+                        <div class="timeline-dot"><i class="ph ph-briefcase"></i></div>
+                        <div class="timeline-content glass-panel">
+                            <span class="timeline-date">Sep 2021 – Feb 2022</span>
+                            <h3 class="timeline-title">Software Testing Trainee</h3>
+                            <h4 class="timeline-company">QA Infotech India Private Limited</h4>
+                            <p class="timeline-location"><i class="ph ph-map-pin"></i> Mumbai, India</p>
+                            <ul class="timeline-bullets">
+                                <li>Executed comprehensive testing strategies (smoke, unit, regression, compatibility) across web environments (MindTap, Cengage, ClickSafety).</li>
+                                <li>Conducted API validations using Postman and recorded bug lifecycles in JIRA, shortening verification loops.</li>
+                                <li>Partnered with developers to ensure functional standards and validate UX consistency.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 3: BTech -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot"><i class="ph ph-graduation-cap"></i></div>
+                        <div class="timeline-content glass-panel">
+                            <span class="timeline-date">2017 – 2021</span>
+                            <h3 class="timeline-title">Bachelor of Technology in Aerospace Engineering</h3>
+                            <h4 class="timeline-company">Amity University</h4>
+                            <p class="timeline-location"><i class="ph ph-map-pin"></i> Mumbai, India</p>
+                            <p class="timeline-desc">Graduated with a focus on aerodynamics, flight control systems, and computational methods. Developed structural math models that inspired my pivot toward AI/ML and robotics navigation systems.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Languages section at the bottom -->
+                <div class="languages-section glass-panel">
+                    <h3 class="lang-title"><i class="ph ph-translate"></i> Languages spoken</h3>
+                    <div class="languages-grid">
+                        <div class="lang-card">
+                            <span class="lang-name">English</span>
+                            <span class="lang-level">Professional</span>
+                            <div class="lang-bar"><div class="fill" style="width: 90%;"></div></div>
+                        </div>
+                        <div class="lang-card">
+                            <span class="lang-name">Telugu</span>
+                            <span class="lang-level">Native</span>
+                            <div class="lang-bar"><div class="fill" style="width: 100%;"></div></div>
+                        </div>
+                        <div class="lang-card">
+                            <span class="lang-name">Hindi</span>
+                            <span class="lang-level">Native</span>
+                            <div class="lang-bar"><div class="fill" style="width: 100%;"></div></div>
+                        </div>
+                        <div class="lang-card">
+                            <span class="lang-name">French</span>
+                            <span class="lang-level">Elementary</span>
+                            <div class="lang-bar"><div class="fill" style="width: 30%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 5. CONTACT TAB -->
+            <section class="tab-panel" id="tab-contact">
+                <div class="contact-grid">
+                    <div class="contact-info-panel glass-panel">
+                        <h2 class="section-title">Let's Connect</h2>
+                        <p class="section-subtitle">Interested in collaborating or discussing AI/ML, computer vision, or robotics roles? Reach out!</p>
+                        
+                        <div class="contact-list">
+                            <div class="contact-card-item glass-card">
+                                <div class="icon-wrap"><i class="ph ph-envelope"></i></div>
+                                <div class="card-details">
+                                    <span>Send an Email</span>
+                                    <a href="mailto:rajprudvi423@gmail.com">rajprudvi423@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-card-item glass-card">
+                                <div class="icon-wrap"><i class="ph ph-phone"></i></div>
+                                <div class="card-details">
+                                    <span>Call Directly</span>
+                                    <a href="tel:+918879674038">+91 88796 74038</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-card-item glass-card">
+                                <div class="icon-wrap"><i class="ph ph-map-pin"></i></div>
+                                <div class="card-details">
+                                    <span>Based In</span>
+                                    <strong>Hyderabad, India</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-panel glass-panel">
+                        <!-- Submit using FormSubmit API -->
+                        <form id="contactForm" onsubmit="handleFormSubmit(event)">
+                            <h3 class="form-title">Send a Message</h3>
+                            
+                            <!-- Hidden subject line parameter for email -->
+                            <input type="hidden" name="_subject" value="New Message from Pruthviraju Gundrathi Portfolio">
+                            
+                            <div class="form-group">
+                                <input type="text" id="form-name" name="name" required placeholder=" ">
+                                <label for="form-name">Your Name</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" id="form-email" name="email" required placeholder=" ">
+                                <label for="form-email">Your Email</label>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="form-message" name="message" required rows="5" placeholder=" "></textarea>
+                                <label for="form-message">Your Message</label>
+                            </div>
+
+                            <button type="submit" class="submit-btn primary-glow-btn" id="btnSubmit">
+                                <span>Transmit Signal</span><i class="ph ph-paper-plane-right"></i>
+                            </button>
+                        </form>
+                        
+                        <div class="success-message" id="successMsg">
+                            <div class="success-icon"><i class="ph ph-check-circle"></i></div>
+                            <h3>Signal Transmitted!</h3>
+                            <p>Thank you for reaching out. The signal has reached rajprudvi423@gmail.com directly. I will get back to you shortly.</p>
+                            <button class="secondary-btn" onclick="resetForm()">Send another message</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <p>&copy; 2026 Pruthviraju Gundrathi. Created with high-fidelity glassmorphism.</p>
+        </footer>
+    </div>
+
+    <!-- Main JavaScript Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
